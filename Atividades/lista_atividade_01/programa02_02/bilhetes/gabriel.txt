@@ -1,0 +1,4 @@
+===== BILHETE =====
+Nome: gabriel
+Filme: A Vingança do Frango Assado
+Classificação: 18

@@ -1,4 +1,4 @@
 ===== BILHETE =====
-Nome: gabriel
+Nome: joao
 Filme: Poeira em Alto Mar
 Classificação: 16
