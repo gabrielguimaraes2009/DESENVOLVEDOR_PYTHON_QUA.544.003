@@ -1,4 +1,4 @@
-nomes = {
+nomes = [
     "Fulano", 
     'Ciclano', 
     'Beltrano', 
@@ -6,7 +6,7 @@ nomes = {
     'Maria', 
     'José', 
     'Esmeralda'
-}
+]
 
 # usuário informa o nome que deseja alterar
 nome_antigo = input('Informe o nome que deseja alterar: ').strip().title()
