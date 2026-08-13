@@ -36,10 +36,28 @@ while True:
                 for chave, valor in usuario.items():
                     print(f"{chave.capitalize()}: {valor}")
                 print(f"{'-'*40}")
+                continue
         case "3":
-            pass
+            nome = input('Informe o nome a ser pesquisado:').strip().title()
+            for usuario in usuarios:
+                if nome in usuarios['nome']:
+                    # 2º menu
+                    print('nome')
+                    print('cpf')
+                    print('email')
+                    print('cancelar')
+                    alterar
         case "4":
-            pass
+            nome = input('Informe o nome a ser deletado: ').strip().title()
+            for usuario in usuarios:
+                # FIXME: corrigir bloco abaixo
+                if nome in usuario['nome']:
+                    usuarios.remove(usuario)
+                    print('Usuário deletado com sucesso!')
+                else:
+                    # REVIEW:mensagem bugada
+                    print("Usuário deletado com sucesso>")
+            continue
         case "5":
             break
         case _:
