@@ -3113,7 +3113,7 @@
  [],
  False,
  False,
- 1788476731,
+ 1788476968,
  [('run.exe',
    'C:\\Users\\ALUNO\\GABRIEL '
    'GUIMARAES\\DESENVOLVEDOR_PYTHON_QUA.544.003\\parte05-bibliotecas_externas\\parte04_git_poltergeist\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
