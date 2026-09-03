@@ -7,7 +7,7 @@ def hoje():
 
 
 def main():
-    auto.PAUSE = 1.3
+    auto.PAUSE = 1.0
 
     auto.press('win')
     auto.write('cmd')
@@ -15,14 +15,17 @@ def main():
     auto.write(r"cd C:\Users\ALUNO\GABRIEL GUIMARAES\DESENVOLVEDOR_PYTHON_QUA.544.003")
     auto.press("enter")
     auto.write("git add .")
-    sleep(3)
     auto.press("enter")
+    sleep(3)
     auto.write(f'git commit -m "Atualização do dia {hoje()}"')
     auto.press("enter")
+    sleep(3)
     auto.write("git push")
-    sleep(7)
     auto.press("enter")
-    auto.write("exit"),
+    sleep(7)
+    auto.write("exit")
+    auto.press("enter")
+    auto.alert(text="Finalizado com sucesso!🤖", button="OK")
 
 
 if __name__ == "__main__":
