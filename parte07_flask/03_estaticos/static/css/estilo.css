@@ -1,0 +1,11 @@
+@import url("fonts.css");
+
+body {
+    background-color: #083b26;
+    color: #f3f7fa;
+}
+
+h1, h2 {
+    font-family: 'matcha_mint', sans-serif;
+    text-align: center;
+}   
